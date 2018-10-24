@@ -8,7 +8,8 @@ Bo Jensen
 
 ---
 
-Shoutout goes to the great learning platform pluralsight.com
+Shoutout goes to:
+pluralsight.com (a great learning platform)
 
 Thank you to:
 Bo Milanovitch  
