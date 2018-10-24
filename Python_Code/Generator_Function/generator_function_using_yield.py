@@ -7,14 +7,14 @@ def read_file(): # Normal function using custom generator function.
         #  for student in f.readlines():
 
         # To keep getting new results a for loop is needed
-        for name in read_students(f):
+        for name in read_names(f):
             names.append(name)
         f.close()
     except Exception:
         print("Error: Cannot read file")
 
 
-def read_students(f): # Generator function.
+def read_names(f): # Generator function.
     for line in f:
         yield line
 
