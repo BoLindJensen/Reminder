@@ -1,6 +1,6 @@
 list_of_names = []
 
-
+# Using a class
 class PersonClass:
     def add_person(self, name, name_id=1):
         name_dic = {"name": name, "name_id": name_id}
