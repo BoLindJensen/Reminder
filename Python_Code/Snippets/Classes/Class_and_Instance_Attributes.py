@@ -3,13 +3,13 @@ list_of_names = []
 
 class PersonClass:
     # Class attributes are defined here.
-    #Static variables in python are outside class methods, but inside the class
-    #Static variable are the same across all class instances.
+    # Static variables in python are outside class methods, but inside the class
+    # Static variable are the same across all class instances.
     race = "Human"
     country = "Denmark"
 
 
-      #Constructor
+    # Constructor
     def __init__(self, name, age=0, name_id=1):
 
         #instance atributes, availabe to all class methods()  eg. using self.name
@@ -24,9 +24,14 @@ class PersonClass:
     def __str__(self):
         return "PersonClass " + self.name
 
-    # using instance variables
+    #user made up methods()
+    # Using instance variables
     def get_name_capitalized(self):
         return self.name.capitalize()
+
+
+    def get_age(self):
+        return self.age
 
 
     # Using static variable
@@ -34,26 +39,25 @@ class PersonClass:
         return self.race
 
 
-    def get_race(self):
-        return self.race
+    def get_country(self):
+        return self.country
 
 
 # Creating different instances of the same class
 bo = PersonClass("Bo")
-peter = PersonClass("peter ", 32)
+peter = PersonClass("peter", 32)
 
 
-# Calling using instancing
-print(bo.get_name_capitalized())
-print(bo.get_race())
+# Calling attributes using instancing.
+print("Calling using instancing:")
+print(bo.get_name_capitalized() + " is " + bo.get_race())
+print(peter.get_name_capitalized() + " is " + peter.get_race())
 
-print(peter.get_name_capitalized())
-print(peter.get_race())
-
-# Calling class attributes directly without instancing
+# Calling class attributes directly.
+print("\nCalling class attributes 'race' directly without instancing anything:")
 print(PersonClass.race)
 
-
-#print("woot",john.get_name_capitalized())
-
-#print(list_of_names)
+# Change it.
+print("\nChange PersonClass.race:")
+PersonClass.race = "Alien"
+print(PersonClass.race)
