@@ -1,0 +1,21 @@
+To build for 64bit, open x64 native tools console for Visual Studio
+
+For Windows:
+scons platform=windows target=release -j2
+
+For Android export template:
+scons platform=android target=release -j2
+
+then go to:
+
+C:\godot> cd platform/android/java
+
+type:
+C:\godot\platform\android\java> gradlew build
+
+
+clean up a build:
+scons -c
+
+scons --clean [targets]
+scons --no-cache [targets]
