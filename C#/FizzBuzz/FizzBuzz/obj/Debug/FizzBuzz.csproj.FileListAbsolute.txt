@@ -1,0 +1,13 @@
+C:\Projects\PluralSight\C#\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Projects\PluralSight\C#\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+C:\Projects\PluralSight\C#\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
+C:\Projects\PluralSight\C#\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Projects\PluralSight\C#\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
+C:\Projects\PluralSight\C#\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
+C:\Projects\PluralSight\C#\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csprojAssemblyReference.cache
+C:\Projects\Python Code\Reminder\C#\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe.config
+C:\Projects\Python Code\Reminder\C#\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.exe
+C:\Projects\Python Code\Reminder\C#\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.pdb
+C:\Projects\Python Code\Reminder\C#\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Projects\Python Code\Reminder\C#\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.exe
+C:\Projects\Python Code\Reminder\C#\FizzBuzz\FizzBuzz\obj\Debug\FizzBuzz.pdb
