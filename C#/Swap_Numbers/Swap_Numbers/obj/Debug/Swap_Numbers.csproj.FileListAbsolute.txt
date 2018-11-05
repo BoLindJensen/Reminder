@@ -1,0 +1,6 @@
+C:\Projects\PluralSight\C#\Swap_Numbers\Swap_Numbers\bin\Debug\Swap_Numbers.exe
+C:\Projects\PluralSight\C#\Swap_Numbers\Swap_Numbers\bin\Debug\Swap_Numbers.exe.config
+C:\Projects\PluralSight\C#\Swap_Numbers\Swap_Numbers\bin\Debug\Swap_Numbers.pdb
+C:\Projects\PluralSight\C#\Swap_Numbers\Swap_Numbers\obj\Debug\Swap_Numbers.csproj.CoreCompileInputs.cache
+C:\Projects\PluralSight\C#\Swap_Numbers\Swap_Numbers\obj\Debug\Swap_Numbers.exe
+C:\Projects\PluralSight\C#\Swap_Numbers\Swap_Numbers\obj\Debug\Swap_Numbers.pdb
