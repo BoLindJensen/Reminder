@@ -1,6 +1,6 @@
 '''
 
-Dependencys:
+Dependency:
 This code requires flask web-wrapper
 install using a terminal window -: pip install -U Flask
 
