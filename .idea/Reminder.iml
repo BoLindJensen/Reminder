@@ -4,6 +4,8 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Python_Code/Snippets/Classes/Modules_and_Packages" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python_Code/Snippets/__Name__" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python_Code/Applied_Code/WebApp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python_Code/Snippets/Files/MoreFiles" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

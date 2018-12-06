@@ -1,3 +1,8 @@
+'''
+
+Generator functions have at lease one yeild in then, they are used when Lazy evaluation is needed.
+Eg sensors, very large data sets, etc
+'''
 names = []
 
 def read_file(): # Normal function using custom generator function.

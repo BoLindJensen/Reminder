@@ -1,0 +1,14 @@
+
+Create a EXE file
+
+A Python package installer
+3.2.1
+
+-: pip install pyinstaller
+
+# go to py file
+pyinstaller main.py
+#get main.EXE file from "dist" folder
+
+To get a nice exe file do:
+pyinstaller --onefile main.py

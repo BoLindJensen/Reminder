@@ -33,10 +33,25 @@ print(my_byte)
 
 
 # A List (muteable sequence of objects)
-my_list = [1,2,3]
+my_list = [1,2,3,4,5,6,7,8]
 print(type(my_list))
 for item in my_list:
     print(item)
+
+my_list_sliced = my_list[2:5]   # [start:stop]
+print("my_list_sliced: ", my_list_sliced)
+
+
+#Copying lists (shallow)
+copyed_list1 = my_list[:]       # Full Slice, open slice [:] will create a new list object
+print(copyed_list1 is my_list)  # False
+print(copyed_list1 ==  my_list) # True
+
+copyed_list2 = my_list.copy()   # copy() method
+copyed_list3 = list(my_list)    # list() Constructor
+
+
+
 
 # A Tuple   (Heterogeneous immutable sequence of objects, cannot replace, remove or add once created)
 my_tuple = (1 ,2, 3)
@@ -44,7 +59,7 @@ print(type(my_tuple))
 for item in my_tuple:
     print(item)
 
-# A Set
+# A Set Unordered collection of unique, immutable objects
 my_set = {1,2,3}
 print(type(my_set))
 for item in my_set:
@@ -92,6 +107,12 @@ print(my_dict)
 
 for item in my_dict:
    print(item , my_dict[item])
+#or
+
+for key, value in my_dict.items():
+   print(f"{key} --> {value}")
+
+
 
 
 # Python Collection build-in types
@@ -124,3 +145,10 @@ print(my_nontype)
 
 # Python Scalar build-in types
 # ---END  ---
+
+
+# A Generator
+my_generator = (x * x for x in [2, 4, 6] if x > 2)
+print(type(my_generator))
+for item in my_generator:
+    print(item)

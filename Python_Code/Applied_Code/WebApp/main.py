@@ -8,7 +8,6 @@ install using a terminal window -: pip install -U Flask
 '''
 from flask import Flask, render_template, redirect, url_for, request
 
-
 from student import Student
 
 
@@ -28,8 +27,8 @@ def student_page():
         return redirect(url_for("student_page"))
     return render_template("index.html", students=students)
 
-if __name__ == "__main__"
-    aap.run(debug = True)
+if __name__ == "__main__":
+    app.run(debug = True)
 
 
 

@@ -1,0 +1,8 @@
+used for creating setup wizard
+
+google inno setup
+
+download
+run
+profit
+

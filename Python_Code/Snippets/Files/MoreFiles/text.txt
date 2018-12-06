@@ -1,0 +1,5 @@
+This is a long message, that continues. 
+Now it ends.
+Added lines 
+Remember the newlines character, if you need it 
+...
