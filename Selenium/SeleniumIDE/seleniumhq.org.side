@@ -1,0 +1,204 @@
+{
+  "id": "78258084-f192-48ed-a7c6-a4422acdff67",
+  "version": "1.1",
+  "name": "seleniumhq.org",
+  "url": "https://www.seleniumhq.org",
+  "tests": [{
+    "id": "e47db716-4a7b-4579-b568-acbf4bd0cc5c",
+    "name": "seleniumhq.org fail",
+    "commands": [{
+      "id": "1f274b5c-76f1-4c09-a378-b1b35b70834d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c7a5bdd-c848-460c-a63b-e360dbd5ca2a",
+      "comment": "This is a comment as there is not command",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a93e2b99-a28f-4930-87ff-ad9d7434f033",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Selenium Remote Control",
+      "targets": [
+        ["linkText=Selenium Remote Control", "linkText"],
+        ["css=p:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Selenium Remote Control')]", "xpath:link"],
+        ["xpath=//table[@id='choice']/tbody/tr/td/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/projects/remote-control/')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0eaaa6-f12c-4356-bb48-9198eeec03cf",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Selenium Remote-Control",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e33de86-8b97-4109-a9b8-48e275cdb88b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "715eceb5-55cc-4b82-9a2a-1087d2856557",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='mainContent']/p[3]", "xpath:idRelative"],
+        ["xpath=//p[3]", "xpath:position"]
+      ],
+      "value": "Here is a simplified architectural representation....with a failed verification step as this text is not on the page....."
+    }, {
+      "id": "97ad593b-004c-4b7d-9654-070fc16ea9dd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p > b",
+      "targets": [
+        ["css=p > b", "css"],
+        ["css=p > b", "css:finder"],
+        ["xpath=//div[@id='mainContent']/p/b", "xpath:idRelative"],
+        ["xpath=//p/b", "xpath:position"]
+      ],
+      "value": "Selenium Remote Control"
+    }, {
+      "id": "2393f3af-d46a-4da2-ac16-c370ce174bd1",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa836fb8-6bce-4eea-abd9-c42a12f45ac6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=our documentation",
+      "targets": [
+        ["linkText=our documentation", "linkText"],
+        ["css=#mainContent a", "css:finder"],
+        ["xpath=//a[contains(text(),'our documentation')]", "xpath:link"],
+        ["xpath=//div[@id='mainContent']/p[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/docs/05_selenium_rc.jsp')]", "xpath:href"],
+        ["xpath=//p[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18a0d4db-15cb-4071-a274-8f5ed486b8c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.treeview:nth-child(2) > .expandable:nth-child(5) > .hitarea",
+      "targets": [
+        ["css=.treeview:nth-child(2) > .expandable:nth-child(5) > .hitarea", "css:finder"],
+        ["xpath=//div[@id='side']/div[2]/div/ul/li/ul/li[5]/div", "xpath:idRelative"],
+        ["xpath=//li[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cfc8769-b7d9-4487-af49-c2c07ad78adc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ruby",
+      "targets": [
+        ["linkText=Ruby", "linkText"],
+        ["css=.hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ruby')])[2]", "xpath:link"],
+        ["xpath=//div[@id='side']/div[2]/div/ul/li/ul/li[5]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#ruby')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f991860-4743-43f3-bc22-e269f73c0200",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#perl-php > p",
+      "targets": [
+        ["css=#perl-php > p", "css"],
+        ["css=#perl-php > p", "css:finder"],
+        ["xpath=//div[@id='perl-php']/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div[5]/p", "xpath:position"]
+      ],
+      "value": "The members of the documentation team have not used Selenium RC with Perl or PHP. If you are using Selenium RC with either of these two languages please contact the Documentation Team (see the chapter on contributing). We would love to include some examples from you and your experiences, to support Perl and PHP users."
+    }, {
+      "id": "ecd59f26-59d3-4fd4-abb5-c2eab0c989f3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c44a3318-a474-44b3-a182-31c931c3f49b",
+    "name": "seleniumhq.org pass",
+    "commands": [{
+      "id": "42fe917d-0cd5-4dc2-bbda-94fd9c2a098c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2af82e5-7f11-47a6-9c3e-93965a3d7921",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Selenium Remote Control",
+      "targets": [
+        ["linkText=Selenium Remote Control", "linkText"],
+        ["css=p:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Selenium Remote Control')]", "xpath:link"],
+        ["xpath=//table[@id='choice']/tbody/tr/td/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/projects/remote-control/')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dcb78b9-4ff6-45c3-b8e3-519e9c61efc8",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Selenium Remote-Control",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98aa3a29-7ddd-43cb-b1ad-8f96cc4a365a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=our documentation",
+      "targets": [
+        ["linkText=our documentation", "linkText"],
+        ["css=#mainContent a", "css:finder"],
+        ["xpath=//a[contains(text(),'our documentation')]", "xpath:link"],
+        ["xpath=//div[@id='mainContent']/p[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/docs/05_selenium_rc.jsp')]", "xpath:href"],
+        ["xpath=//p[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea462155-a4f7-4ce7-9cac-7a013306bce5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4f6a4ece-231b-4e48-baa8-4f5e51c455a4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e47db716-4a7b-4579-b568-acbf4bd0cc5c"]
+  }],
+  "urls": ["https://www.seleniumhq.org/"],
+  "plugins": []
+}
