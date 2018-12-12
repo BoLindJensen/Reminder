@@ -190,6 +190,159 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "a3445258-3c75-4cb5-8208-38de62c665c0",
+    "name": "Failed Login",
+    "commands": [{
+      "id": "590dd20d-94ee-4b05-b153-81739ab10020",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pluralsight.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26178655-b61c-4f9f-a44f-90ab63094f7b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "824x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ce8da6d-d02b-4696-991c-18c4679272af",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a.header_menu",
+      "targets": [
+        ["css=a.header_menu", "css"],
+        ["css=.header_menu", "css:finder"],
+        ["xpath=//header[@id='page_header']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d11f49-1332-455d-939d-56fc348da134",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a.header_menu",
+      "targets": [
+        ["css=a.header_menu", "css"],
+        ["css=.header_menu", "css:finder"],
+        ["xpath=//header[@id='page_header']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c03b207b-48ba-4aa6-bc89-844272244afa",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.header_menu_line",
+      "targets": [
+        ["css=div.header_menu_line", "css"],
+        ["css=.header_menu_line:nth-child(1)", "css:finder"],
+        ["xpath=//header[@id='page_header']/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17248fb-2810-4564-8a0c-5c85395a364f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a.header_menu",
+      "targets": [
+        ["css=a.header_menu", "css"],
+        ["css=.header_menu", "css:finder"],
+        ["xpath=//header[@id='page_header']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec188f46-261c-46bb-a481-6541173ea39b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a.header_menu",
+      "targets": [
+        ["css=a.header_menu", "css"],
+        ["css=.header_menu", "css:finder"],
+        ["xpath=//header[@id='page_header']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95c5484b-1ffb-457b-87b9-82ded4d745a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=a.no-border", "css"],
+        ["css=.mobile-signin > .no-border", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//header[@id='page_header']/div/div[6]/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.pluralsight.com/id?')]", "xpath:href"],
+        ["xpath=//li/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a6094ed-93fb-40d0-829c-754fac83810f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Username",
+      "targets": [
+        ["id=Username", "id"],
+        ["name=Username", "name"],
+        ["css=#Username", "css"],
+        ["css=#Username", "css:finder"],
+        ["xpath=//input[@id='Username']", "xpath:attributes"],
+        ["xpath=//form[@id='signInForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "NotValidName"
+    }, {
+      "id": "fa81dc3f-d3f9-4eae-8be7-d25ad8de1af8",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=Password", "name"],
+        ["css=#Password", "css"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//form[@id='signInForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "FailePassword"
+    }, {
+      "id": "38a760fa-7f11-4ea1-b711-89b0d34d75ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='signInForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "594f8635-352b-44b5-bcc6-d094259ca2f7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=span.field-validation-error",
+      "targets": [
+        ["css=span.field-validation-error", "css"],
+        ["css=.field-validation-error", "css:finder"],
+        ["xpath=//div[@id='errorMessage']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": "Invalid user name or password"
+    }]
   }],
   "suites": [{
     "id": "4f6a4ece-231b-4e48-baa8-4f5e51c455a4",

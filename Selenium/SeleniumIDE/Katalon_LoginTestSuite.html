@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Login Failed</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.pluralsight.com/<datalist><option>https://www.pluralsight.com/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//header[@id='page_header']/a[2]/div[3]<datalist><option>//header[@id='page_header']/a[2]/div[3]</option><option>//a[2]/div[3]</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Log in<datalist><option>link=Log in</option><option>//a[contains(text(),'Log in')]</option><option>//header[@id='page_header']/div/div[6]/ul/li/ul/li[2]/a</option><option>//a[contains(@href, 'https://app.pluralsight.com/id?')]</option><option>//li/ul/li[2]/a</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=Username<datalist><option>id=Username</option><option>name=Username</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email or Username'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/preceding::input[4]</option><option>//input[@id='Username']</option><option>//form[@id='signInForm']/div/input</option><option>//div/input</option><option>css=#Username</option></datalist></td><td>bogus</td>
+</tr>
+<tr><td>type</td><td>id=Password<datalist><option>id=Password</option><option>name=Password</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::input[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email or Username'])[1]/following::input[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/preceding::input[3]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::input[3]</option><option>//input[@id='Password']</option><option>//form[@id='signInForm']/div[2]/input</option><option>//div[2]/input</option><option>css=#Password</option></datalist></td><td>invalid</td>
+</tr>
+<tr><td>click</td><td>id=login<datalist><option>id=login</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email or Username'])[1]/following::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::button[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign in with company or school'])[1]/preceding::button[1]</option><option>//button[@id='login']</option><option>//form[@id='signInForm']/button</option><option>//button</option><option>css=#login</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::span[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::span[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Email or Username'])[1]/preceding::span[1]</option><option>//div[@id='errorMessage']/span</option><option>//span</option><option>css=span.field-validation-error</option></datalist></td><td>Invalid user name or password</td>
+</tr>
+</tbody></table>
+</body>
+</html>
