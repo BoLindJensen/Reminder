@@ -1,0 +1,1 @@
+cmd /c "start cmd_left /k "%HOMEDRIVE%%HOMEPATH%\AppData\Local\Android\Sdk\platform-tools\adb -d logcat godot:V FireBase:V DEBUG:V AndroidRuntime:V ValidateServiceOp:V *:S" && start cmd_right /k "%HOMEDRIVE%%HOMEPATH%\AppData\Local\Android\Sdk\platform-tools\adb -d logcat *:I"
